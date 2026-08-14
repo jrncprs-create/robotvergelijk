@@ -1,0 +1,642 @@
+{
+  "_comment": "Specificaties zijn samengevat uit opgaven van fabrikanten en kunnen wijzigen. We tonen bewust geen harde prijzen (bol-voorwaarden art. 3.6) maar prijsklassen; de actuele prijs staat bij de winkel.",
+  "spec_labels": {
+    "navigatie": "Navigatie",
+    "zuigkracht": "Zuigkracht (opgave)",
+    "dweilen": "Dweilsysteem",
+    "station": "Basisstation",
+    "obstakels": "Obstakelherkenning",
+    "drempel": "Drempels",
+    "geschikt": "Sterk in",
+    "zwak": "Zwak in",
+    "prijsklasse": "Prijsklasse",
+    "aandrijving": "Aandrijving",
+    "begrenzing": "Begrenzing",
+    "oppervlak": "Gazon tot",
+    "helling": "Helling tot",
+    "regen": "Regensensor",
+    "reiniging": "Reinigt",
+    "bediening": "Bediening",
+    "filter": "Filter",
+    "looptijd": "Looptijd",
+    "formaat": "Geschikt voor",
+    "sproeier": "Watersproeier",
+    "beveiliging": "Valbeveiliging",
+    "glas": "Minimale ruit"
+  },
+  "categorieen": {
+    "robotstofzuiger": {
+      "titel": "Robotstofzuigers",
+      "specs": [
+        "navigatie",
+        "zuigkracht",
+        "dweilen",
+        "station",
+        "obstakels",
+        "drempel",
+        "prijsklasse"
+      ]
+    },
+    "raamrobot": {
+      "titel": "Raamrobots",
+      "specs": [
+        "reiniging",
+        "sproeier",
+        "beveiliging",
+        "glas",
+        "bediening",
+        "prijsklasse"
+      ]
+    },
+    "robotmaaier": {
+      "titel": "Robotmaaiers",
+      "specs": [
+        "begrenzing",
+        "navigatie",
+        "oppervlak",
+        "helling",
+        "aandrijving",
+        "regen",
+        "prijsklasse"
+      ]
+    },
+    "zwembadrobot": {
+      "titel": "Zwembadrobots",
+      "specs": [
+        "reiniging",
+        "aandrijving",
+        "looptijd",
+        "filter",
+        "formaat",
+        "prijsklasse"
+      ]
+    }
+  },
+  "robotstofzuiger": [
+    {
+      "id": "dreame-x40",
+      "naam": "Dreame X40 Ultra",
+      "merk": "Dreame",
+      "zoek": "Dreame X40 Ultra",
+      "tag": "Beste totaalpakket",
+      "best": true,
+      "prijsklasse": "€1.000 – €1.400",
+      "kort": "Het meest complete pakket dat je kunt kopen: uitschuivende dweilarm voor de randen, warmwaterreiniging van de dweilen en een station dat vrijwel alles zelf doet. Je koopt hier vooral tijd mee.",
+      "specs": {
+        "navigatie": "LiDAR met 3D-obstakelsensor",
+        "zuigkracht": "Zeer hoog (opgave ±12.000 Pa)",
+        "dweilen": "Twee roterende dweilen, uitschuifbaar naar de rand",
+        "station": "Leegt, wast met warm water en droogt",
+        "obstakels": "Camera plus AI-herkenning, goed met kabels",
+        "drempel": "Tot circa 6 cm met hefsysteem"
+      },
+      "voor": [
+        "Je wilt er echt niet naar omkijken",
+        "Gemengde vloer met tapijt én hout",
+        "Huisdieren die haar verliezen"
+      ],
+      "tegen": [
+        "Het station is fors en moet bij een stopcontact",
+        "Verbruiksmaterialen kosten per jaar tientjes",
+        "Overkill in een klein appartement"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/Nw9wqZRArKW6/nZNMpkl/550x675.jpg",
+          "https://media.s-bol.com/3qYBmM7Z4XvR/mZ60Jo3/550x680.jpg",
+          "https://media.s-bol.com/7q66MWq2JKw8/XDnKp9A/550x679.jpg",
+          "https://media.s-bol.com/DngAk8loE12x/qjVN1yG/550x692.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant",
+        "video": {
+          "id": "mK1v21mvnr0",
+          "bron": "Video: Dreame (officieel kanaal, YouTube)"
+        }
+      }
+    },
+    {
+      "id": "roborock-s8-maxv",
+      "naam": "Roborock S8 MaxV Ultra",
+      "merk": "Roborock",
+      "zoek": "Roborock S8 MaxV Ultra",
+      "tag": "Beste obstakelherkenning",
+      "prijsklasse": "€1.100 – €1.500",
+      "kort": "Roborocks navigatie en app zijn al jaren de rustigste van de markt. De camera herkent losse spullen betrouwbaar, wat scheelt als je vloer niet altijd leeg is.",
+      "specs": {
+        "navigatie": "LiDAR met structured light",
+        "zuigkracht": "Zeer hoog (opgave ±10.000 Pa)",
+        "dweilen": "Trillende dweil plus uitschuifbare zijdweil",
+        "station": "Leegt, wast en droogt",
+        "obstakels": "Beste van de vier: herkent kabels, schoenen en drollen",
+        "drempel": "Tot circa 4 cm"
+      },
+      "voor": [
+        "Er ligt weleens wat op de vloer",
+        "Je wilt een app die niet tegenwerkt",
+        "Tapijt wordt automatisch ontweken bij dweilen"
+      ],
+      "tegen": [
+        "Prijzig",
+        "Dweilt iets minder grondig dan de Dreame",
+        "Groot station"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/ggWprRJArWQ6/OyDwq3B/550x573.jpg",
+          "https://media.s-bol.com/XB2GNWVOjQ7g/ADWBBrO/550x476.jpg",
+          "https://media.s-bol.com/1kPoKL7AmrWR/ADWBBrO/550x342.jpg",
+          "https://media.s-bol.com/YDNJO8XAOOwK/ADWBBrO/550x522.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    },
+    {
+      "id": "ecovacs-t30",
+      "naam": "Ecovacs Deebot T50-serie",
+      "merk": "Ecovacs",
+      "zoek": "Ecovacs Deebot T50 Omni",
+      "tag": "Beste dweilresultaat",
+      "prijsklasse": "€700 – €1.000",
+      "kort": "Ecovacs gebruikt in deze serie een roterende rol die continu wordt schoongespoeld in plaats van een ronddraaiende doek. Dat scheelt echt bij opgedroogde vlekken — het scheelt niet bij de aanschafprijs.",
+      "specs": {
+        "navigatie": "LiDAR",
+        "zuigkracht": "Hoog",
+        "dweilen": "Doorlopend gespoelde rol, drukt aan",
+        "station": "Leegt, wast en droogt",
+        "obstakels": "Goed, iets voorzichtiger dan Roborock",
+        "drempel": "Tot circa 2 cm"
+      },
+      "voor": [
+        "Harde vloer met opgedroogde vlekken",
+        "Keuken en eetkamer",
+        "Prijs-kwaliteit in de topklasse"
+      ],
+      "tegen": [
+        "Lagere drempelcapaciteit",
+        "Rol vraagt onderhoud",
+        "App is voller en rommeliger"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/YK35VV71KvEO/862jww3/550x442.jpg",
+          "https://media.s-bol.com/6EO9zM0YDMWN/862jww3/550x423.jpg",
+          "https://media.s-bol.com/1yJ4BM9V0zVo/862jww3/550x413.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    },
+    {
+      "id": "roborock-qrevo",
+      "naam": "Roborock Q Revo-serie",
+      "merk": "Roborock",
+      "zoek": "Roborock Q Revo",
+      "tag": "Beste prijs-kwaliteit",
+      "prijsklasse": "€450 – €700",
+      "kort": "De verstandige keuze voor de meeste huizen. Laser-navigatie, twee roterende dweilen en een station dat leegt en wast. Je levert vooral in op de slimme camera — leg je kabels op, en je merkt het verschil nauwelijks.",
+      "specs": {
+        "navigatie": "LiDAR, geen camera",
+        "zuigkracht": "Ruim voldoende",
+        "dweilen": "Twee roterende dweilen",
+        "station": "Leegt en wast, droogt met lucht",
+        "obstakels": "Basaal: ziet grote objecten, mist kabels",
+        "drempel": "Tot circa 2 cm"
+      },
+      "voor": [
+        "Normale woning zonder extreme vervuiling",
+        "Je wilt kamers apart kunnen aansturen",
+        "Beste verhouding prijs en resultaat"
+      ],
+      "tegen": [
+        "Rijdt over losse kabels heen",
+        "Dweilt oppervlakkiger dan de topmodellen"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/Yn9m39z8QBzM/3Z3N9A/550x664.jpg",
+          "https://media.s-bol.com/7BR47NZOG4yQ/Z6mDKjE/550x820.jpg",
+          "https://media.s-bol.com/2wMVAzZO0LEj/Z6mDKjE/550x500.jpg",
+          "https://media.s-bol.com/Y98gBoL0KORO/Z6mDKjE/550x823.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    },
+    {
+      "id": "eufy-instap",
+      "naam": "Eufy Clean instapmodellen",
+      "merk": "Eufy",
+      "zoek": "Eufy Clean robotstofzuiger",
+      "tag": "Instap",
+      "prijsklasse": "€200 – €450",
+      "kort": "Zuigt netjes en navigeert eenvoudig. Geen zelfwassend station, dus je leegt zelf het bakje. Prima om uit te vinden of een robot überhaupt bij je leven past.",
+      "specs": {
+        "navigatie": "Gyroscoop of eenvoudige LiDAR",
+        "zuigkracht": "Voldoende voor harde vloer",
+        "dweilen": "Sleepdoek, alleen voor stof",
+        "station": "Alleen opladen (of eenvoudige stofzak)",
+        "obstakels": "Botssensoren",
+        "drempel": "Tot circa 1,5 cm"
+      },
+      "voor": [
+        "Klein appartement of één verdieping",
+        "Eerst uitproberen",
+        "Weinig obstakels op de vloer"
+      ],
+      "tegen": [
+        "Kleine stofbak: vaak legen",
+        "Sleepdoek verspreidt vuil eerder dan het weg te halen",
+        "Loopt sneller vast"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/BW1MA7zDjGlQ/Lg3Vm1j/550x592.jpg",
+          "https://media.s-bol.com/YKkowmkRqPLM/N9OYx1z/550x234.jpg",
+          "https://media.s-bol.com/BW1A6v4z40QW/Bg3YZZk/550x687.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    }
+  ],
+  "raamrobot": [
+    {
+      "id": "winbot-w2",
+      "naam": "Ecovacs Winbot W2/W3-serie",
+      "merk": "Ecovacs",
+      "zoek": "Ecovacs Winbot Omni",
+      "tag": "Beste keuze",
+      "best": true,
+      "prijsklasse": "€400 – €600",
+      "kort": "Sproeit zelf reinigingsmiddel op het glas, plant een nette route en heeft een noodaccu voor als de stroom uitvalt. Het draagbare station maakt verplaatsen tussen ramen een stuk minder gedoe.",
+      "specs": {
+        "reiniging": "Sproeit en wist in één gang",
+        "sproeier": "Ja, automatisch",
+        "beveiliging": "Noodaccu plus veiligheidskoord",
+        "glas": "Vanaf circa 50 × 50 cm",
+        "bediening": "App en afstandsbediening"
+      },
+      "voor": [
+        "Grote raampartijen of serre",
+        "Ramen die je van buiten niet bereikt",
+        "Je wilt niet op een ladder"
+      ],
+      "tegen": [
+        "Randen en hoeken blijven handwerk",
+        "Hoorbaar lawaai",
+        "Snoer moet ergens in een stopcontact"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/PxW6rnvjkVQW/O7AMNPr/550x374.jpg",
+          "https://media.s-bol.com/J5ymv8ox1PRv/RoWLokw/550x550.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant",
+        "video": {
+          "id": "4LFPWEvEWVA",
+          "bron": "Video: Ecovacs (officieel kanaal, YouTube)"
+        }
+      }
+    },
+    {
+      "id": "hobot-serie",
+      "naam": "Hobot raamrobots",
+      "merk": "Hobot",
+      "zoek": "Hobot raamrobot",
+      "tag": "Beproefd alternatief",
+      "prijsklasse": "€250 – €450",
+      "kort": "Hobot maakt deze machines het langst en dat merk je aan de betrouwbaarheid van de zuiging. Sommige modellen sproeien zelf, andere niet — let daarop bij het bestellen.",
+      "specs": {
+        "reiniging": "Wist met microvezeldoeken",
+        "sproeier": "Per model verschillend",
+        "beveiliging": "Noodaccu plus koord",
+        "glas": "Vanaf circa 50 × 50 cm",
+        "bediening": "App en afstandsbediening"
+      },
+      "voor": [
+        "Normale ramen door het huis",
+        "Betrouwbare zuiging",
+        "Gunstige prijs"
+      ],
+      "tegen": [
+        "Modelnamen zijn verwarrend",
+        "Zonder sproeier meer strepen bij erg vuil glas"
+      ]
+    },
+    {
+      "id": "hutt-serie",
+      "naam": "Hutt raamrobots",
+      "merk": "Hutt",
+      "zoek": "Hutt raamrobot",
+      "tag": "Instap",
+      "prijsklasse": "€200 – €350",
+      "kort": "De goedkoopste manier om te proberen of een raamrobot iets voor je is. Je brengt zelf het middel op de doek aan en de routeplanning is simpeler.",
+      "specs": {
+        "reiniging": "Wist met doeken, handmatig bevochtigen",
+        "sproeier": "Nee",
+        "beveiliging": "Noodaccu plus koord",
+        "glas": "Vanaf circa 50 × 50 cm",
+        "bediening": "Afstandsbediening"
+      },
+      "voor": [
+        "Eerst uitproberen",
+        "Bovenkant van ramen zonder ladder"
+      ],
+      "tegen": [
+        "Rijdt soms twee keer over hetzelfde stuk",
+        "Meer nawerk"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/E4ywW1zvz924/NLEBJQ6/550x579.jpg",
+          "https://media.s-bol.com/5YMPKVBMw9oK/NLEBJQ6/550x550.jpg",
+          "https://media.s-bol.com/Zjg1rvADKKBg/NLEBJQ6/550x550.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    }
+  ],
+  "robotmaaier": [
+    {
+      "id": "navimow",
+      "naam": "Segway Navimow i-serie",
+      "merk": "Segway",
+      "zoek": "Segway Navimow",
+      "tag": "Beste keuze draadloos",
+      "best": true,
+      "prijsklasse": "€900 – €1.800",
+      "kort": "Je loopt de tuingrens één keer uit met de app en klaar. Maait in nette banen in plaats van willekeurig rond, wat je terugziet in het gazon.",
+      "specs": {
+        "begrenzing": "Geen draad, virtuele grens",
+        "navigatie": "RTK-satelliet plus visuele ondersteuning",
+        "oppervlak": "Circa 500 – 3.000 m² per model",
+        "helling": "Tot circa 45%",
+        "aandrijving": "Twee wielen",
+        "regen": "Ja"
+      },
+      "voor": [
+        "Tuin vanaf ongeveer 300 m²",
+        "Geen draad willen ingraven",
+        "Meerdere gescheiden gazons"
+      ],
+      "tegen": [
+        "Antenne heeft vrij zicht op de lucht nodig",
+        "Duurder dan een draadmodel",
+        "Hapert onder dichte bomen"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/751DAjMoN3pj/KZQPrZn/550x540.jpg",
+          "https://media.s-bol.com/G0oywWpEN0wJ/LgrZ4AA/550x763.jpg",
+          "https://media.s-bol.com/DvlpwWmAKvwK/LgrZ4AA/550x408.jpg",
+          "https://media.s-bol.com/xgwOoLJBBBDB/LgrZ4AA/550x425.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant",
+        "video": {
+          "id": "bHQ3vWNQlGE",
+          "bron": "Video: Segway Navimow (officieel kanaal, YouTube)"
+        }
+      }
+    },
+    {
+      "id": "mammotion",
+      "naam": "Mammotion Luba / Yuka",
+      "merk": "Mammotion",
+      "zoek": "Mammotion Luba",
+      "tag": "Beste op hellingen",
+      "prijsklasse": "€1.200 – €2.500",
+      "kort": "De Luba heeft vierwielaandrijving en klimt waar andere maaiers wegglijden. Voor een vlakke tuin is dat weggegooid geld, voor een talud is het het enige dat werkt.",
+      "specs": {
+        "begrenzing": "Geen draad, virtuele grens",
+        "navigatie": "RTK-satelliet",
+        "oppervlak": "Circa 800 – 5.000 m²",
+        "helling": "Tot circa 80% (vierwielaandrijving)",
+        "aandrijving": "Vier wielen (Luba) of twee (Yuka)",
+        "regen": "Ja"
+      },
+      "voor": [
+        "Hellend terrein of talud",
+        "Grote tuinen",
+        "Ruw gras"
+      ],
+      "tegen": [
+        "Prijzig",
+        "App was in het verleden wisselvallig",
+        "Fors formaat"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/RNLp9DlEAPVY/Y6JGjJ0/550x550.jpg",
+          "https://media.s-bol.com/Nm3Z4vgERVkz/pgQRxxy/550x550.jpg",
+          "https://media.s-bol.com/q0zPNlLkM62p/pgQRxxy/550x550.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    },
+    {
+      "id": "dreame-maaier",
+      "naam": "Dreame A-serie",
+      "merk": "Dreame",
+      "zoek": "Dreame robotmaaier",
+      "tag": "Prijs-kwaliteit",
+      "prijsklasse": "€800 – €1.500",
+      "kort": "Dreame kwam laat de markt op en prijst zich agressief in. Voor een gemiddelde Nederlandse tuin krijg je hier de meeste techniek voor je geld.",
+      "specs": {
+        "begrenzing": "Geen draad, virtuele grens",
+        "navigatie": "RTK-satelliet plus camera",
+        "oppervlak": "Circa 1.000 – 3.000 m²",
+        "helling": "Tot circa 50%",
+        "aandrijving": "Twee wielen",
+        "regen": "Ja"
+      },
+      "voor": [
+        "Gemiddelde tuin",
+        "Scherpe prijs voor RTK",
+        "Nette maaipatronen"
+      ],
+      "tegen": [
+        "Kortere staat van dienst dan Husqvarna",
+        "Onder bomen dezelfde beperking als alle RTK-modellen"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/xAr1oorKV7Qn/1wvDMmo/550x348.jpg",
+          "https://media.s-bol.com/gO9277WY22gl/1wvDMmo/550x606.jpg",
+          "https://media.s-bol.com/qqkZAAkzVLj2/1wvDMmo/550x483.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    },
+    {
+      "id": "husqvarna-gardena",
+      "naam": "Husqvarna Automower / Gardena Sileno",
+      "merk": "Husqvarna",
+      "zoek": "Husqvarna Automower",
+      "tag": "Meest betrouwbaar",
+      "prijsklasse": "€600 – €2.000",
+      "kort": "Ouderwets met begrenzingsdraad, en juist daarom de betrouwbaarste keuze onder bomen of in een smalle stadstuin. Deze machines draaien vaak tien jaar mee.",
+      "specs": {
+        "begrenzing": "Begrenzingsdraad",
+        "navigatie": "Willekeurig patroon, sommige modellen systematisch",
+        "oppervlak": "Circa 250 – 3.000 m²",
+        "helling": "Tot circa 40%",
+        "aandrijving": "Twee wielen",
+        "regen": "Ja"
+      },
+      "voor": [
+        "Veel bomen of smalle stadstuin",
+        "Laagste storingskans",
+        "Uitstekend dealernetwerk in Nederland"
+      ],
+      "tegen": [
+        "Draad leggen kost een middag",
+        "Draadbreuk is de klassieke storing",
+        "Maait minder efficiënt"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/WKq9wDwvDvNx/qAWrq0/550x295.jpg",
+          "https://media.s-bol.com/RK1VMxMnxnGE/qAWrq0/550x436.jpg",
+          "https://media.s-bol.com/JKQ9YmY1gEzv/qAWrq0/550x554.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    }
+  ],
+  "zwembadrobot": [
+    {
+      "id": "beatbot",
+      "naam": "Beatbot AquaSense-serie",
+      "merk": "Beatbot",
+      "zoek": "Beatbot AquaSense",
+      "tag": "Beste keuze",
+      "best": true,
+      "prijsklasse": "€1.200 – €2.200",
+      "kort": "Doet als een van de weinige robots bodem, wand, waterlijn én het wateroppervlak. Duur, maar het is ook de enige die het complete werk uit handen neemt.",
+      "specs": {
+        "reiniging": "Bodem, wand, waterlijn en oppervlak",
+        "aandrijving": "Draadloos op accu",
+        "looptijd": "Tot enkele uren, afhankelijk van modus",
+        "filter": "Fijn filter, uitspoelbaar",
+        "formaat": "Baden tot circa 15 meter"
+      },
+      "voor": [
+        "Groter ingebouwd bad",
+        "Last van de vetrand op de waterlijn",
+        "Erin gooien en weglopen"
+      ],
+      "tegen": [
+        "Prijs",
+        "Zwaar om uit het water te tillen",
+        "Grote baden vragen soms twee rondes"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/RmZoGkOBGvwz/k5q5o8r/550x550.jpg",
+          "https://media.s-bol.com/gj8o80yvVpyZ/rkx0R1k/550x379.jpg",
+          "https://media.s-bol.com/BJOZOVBm9qoX/rkx0R1k/550x367.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant",
+        "video": {
+          "id": "1-_Z8WWXRgo",
+          "bron": "Video: Beatbot (officieel kanaal, YouTube)"
+        }
+      }
+    },
+    {
+      "id": "aiper-top",
+      "naam": "Aiper Scuba-serie",
+      "merk": "Aiper",
+      "zoek": "Aiper Scuba zwembadrobot",
+      "tag": "Prijs-kwaliteit",
+      "prijsklasse": "€500 – €1.000",
+      "kort": "Aiper heeft de draadloze zwembadrobot betaalbaar gemaakt. De topmodellen doen bodem en wand; de waterlijn blijft bij de meeste versies handwerk.",
+      "specs": {
+        "reiniging": "Bodem en wand",
+        "aandrijving": "Draadloos op accu",
+        "looptijd": "Circa 90 – 150 minuten",
+        "filter": "Uitspoelbare korf",
+        "formaat": "Baden tot circa 10 meter"
+      },
+      "voor": [
+        "Gemiddeld ingebouwd bad",
+        "Goede verhouding prijs en resultaat",
+        "Eenvoudig in gebruik"
+      ],
+      "tegen": [
+        "Waterlijn meestal niet",
+        "Op ronde baden mist hij stukken"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/xrOoP3mx8MWB/DkPlqMY/550x633.jpg",
+          "https://media.s-bol.com/7BxDQPoY19Q1/Kr5ZZ18/550x453.jpg",
+          "https://media.s-bol.com/rO1k0NMV5RgW/mOWPXw0/550x432.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    },
+    {
+      "id": "dolphin",
+      "naam": "Dolphin (Maytronics)",
+      "merk": "Maytronics",
+      "zoek": "Dolphin zwembadrobot",
+      "tag": "Beste onderhoudsnetwerk",
+      "prijsklasse": "€700 – €1.800",
+      "kort": "Het merk dat de zwembadbranche zelf gebruikt. Zowel met kabel als draadloos verkrijgbaar, en overal in Nederland te repareren — dat is bij een apparaat dat in chloorwater leeft geen detail.",
+      "specs": {
+        "reiniging": "Bodem, wand en bij topmodellen waterlijn",
+        "aandrijving": "Kabel of accu, per model",
+        "looptijd": "Onbeperkt met kabel",
+        "filter": "Meerdere fijnheden leverbaar",
+        "formaat": "Baden tot circa 12 meter"
+      },
+      "voor": [
+        "Je wilt reparatie en onderdelen kunnen krijgen",
+        "Intensief gebruik",
+        "Grote baden met kabelmodel"
+      ],
+      "tegen": [
+        "Kabelmodellen raken in de knoop",
+        "Minder scherp geprijsd dan Aiper"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/GlzJZNY8V5N8/qYL1oNk/550x404.jpg",
+          "https://media.s-bol.com/qLZ4LE9ol3E2/w0EL5Lz/550x458.jpg",
+          "https://media.s-bol.com/w7r47NlxK3NR/w0EL5Lz/550x461.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    },
+    {
+      "id": "aiper-instap",
+      "naam": "Aiper instapmodellen",
+      "merk": "Aiper",
+      "zoek": "Aiper zwembadrobot bodem",
+      "tag": "Instap",
+      "prijsklasse": "€250 – €500",
+      "kort": "Rijdt over de bodem en zuigt blad en zand op. Wanden en waterlijn doe je zelf met de borstel. Voor een klein of opzetbad vaak genoeg.",
+      "specs": {
+        "reiniging": "Alleen bodem",
+        "aandrijving": "Draadloos op accu",
+        "looptijd": "Circa 50 – 90 minuten",
+        "filter": "Grove korf",
+        "formaat": "Baden tot circa 8 meter"
+      },
+      "voor": [
+        "Klein of opzetzwembad",
+        "Vooral blad en zand op de bodem"
+      ],
+      "tegen": [
+        "Waterlijn blijft handwerk",
+        "Op onregelmatige baden mist hij stukken"
+      ],
+      "media": {
+        "fotos": [
+          "https://media.s-bol.com/kEvVj71Ry4wY/ROVDE2E/550x463.jpg",
+          "https://media.s-bol.com/B5klAK1OVgKx/PZyPmR6/550x643.jpg",
+          "https://media.s-bol.com/LoxMOXA0j6Kj/PZyPmR6/550x318.jpg"
+        ],
+        "bron": "Productbeeld: bol.com / fabrikant"
+      }
+    }
+  ]
+}
