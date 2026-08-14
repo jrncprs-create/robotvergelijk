@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 658.78 256.41">
+  <!-- Generator: Adobe Illustrator 30.5.1, SVG Export Plug-In . SVG Version: 2.1.4 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #c7ff16;
+      }
+
+      .st1 {
+        font-family: AvenirNext-Bold, 'Avenir Next';
+        font-size: 110.76px;
+        font-weight: 700;
+      }
+
+      .st1, .st2 {
+        isolation: isolate;
+      }
+
+      .st1, .st3 {
+        fill: #0b2d59;
+      }
+
+      .st4 {
+        fill: url(#Naamloos_verloop);
+      }
+
+      .st5 {
+        fill: none;
+        stroke: #c7ff16;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 12.08px;
+      }
+
+      .st2 {
+        fill: #00bfef;
+        font-family: AvenirNext-DemiBold, 'Avenir Next';
+        font-size: 94.98px;
+        font-weight: 300;
+      }
+
+      .st6 {
+        fill: url(#Naamloos_verloop_2);
+      }
+
+      .st7 {
+        fill: url(#Naamloos_verloop_3);
+      }
+
+      .st8 {
+        fill: url(#Naamloos_verloop_4);
+        stroke: #1ad8f8;
+        stroke-width: 5px;
+      }
+
+      .st9 {
+        fill: #86ddf1;
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop" data-name="Naamloos verloop" x1="133.31" y1="415.21" x2="133.31" y2="414.21" gradientTransform="translate(-2006 19946.2584) scale(16 -48)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#20dfff"/>
+      <stop offset="1" stop-color="#00a9e8"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_2" data-name="Naamloos verloop 2" x1="139.24" y1="416.47" x2="139.24" y2="415.47" gradientTransform="translate(-4717 31751.9921) scale(34 -76)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#20dfff"/>
+      <stop offset="1" stop-color="#00a9e8"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_3" data-name="Naamloos verloop 3" x1="139.24" y1="416.47" x2="139.24" y2="415.47" gradientTransform="translate(-4497 31751.9921) scale(34 -76)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#20dfff"/>
+      <stop offset="1" stop-color="#00a9e8"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_4" data-name="Naamloos verloop 4" x1="142.98" y1="417.37" x2="143.98" y2="416.37" gradientTransform="translate(-25126 63502.9836) scale(176 -152)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#123f78"/>
+      <stop offset="1" stop-color="#071d3d"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="st4" d="M127,16h0c4.42,0,8,3.58,8,8v32c0,4.42-3.58,8-8,8h0c-4.42,0-8-3.58-8-8V24c0-4.42,3.58-8,8-8Z"/>
+    <path class="st6" d="M17,100h0c9.39,0,17,7.61,17,17v42c0,9.39-7.61,17-17,17h0c-9.39,0-17-7.61-17-17v-42c0-9.39,7.61-17,17-17Z"/>
+    <path class="st7" d="M237,100h0c9.39,0,17,7.61,17,17v42c0,9.39-7.61,17-17,17h0c-9.39,0-17-7.61-17-17v-42c0-9.39,7.61-17,17-17Z"/>
+    <rect class="st3" x="21" y="44" width="212" height="188" rx="62" ry="62"/>
+    <rect class="st8" x="39" y="62" width="176" height="152" rx="48" ry="48"/>
+    <circle class="st9" cx="87" cy="123" r="13"/>
+    <circle class="st9" cx="167" cy="123" r="13"/>
+    <path class="st5" d="M111,172.9l14.77,14.1,27.23-28.57"/>
+    <circle class="st0" cx="127" cy="20" r="20"/>
+  </g>
+  <g>
+    <text class="st1" transform="translate(262.69 126.02)"><tspan x="0" y="0">ROBOT</tspan></text>
+    <text class="st2" transform="translate(270.61 212.82)"><tspan x="0" y="0">Vergelijk</tspan></text>
+  </g>
+</svg>
