@@ -1,0 +1,368 @@
+{
+  "intro": {
+    "titel": "Welke robot past bij jou?",
+    "tekst": "Vier vragen, geen e-mailadres nodig. We zeggen het ook eerlijk als een robot je probleem níét oplost."
+  },
+  "start": "klus",
+  "vragen": {
+    "klus": {
+      "vraag": "Welke klus wil je uitbesteden?",
+      "sub": "Kies waar je het meest de pest aan hebt.",
+      "opties": [
+        {
+          "label": "Stofzuigen en dweilen",
+          "uitleg": "Binnen, harde vloer en/of tapijt",
+          "volgende": "vloer_huis"
+        },
+        {
+          "label": "Ramen wassen",
+          "uitleg": "Binnen- of buitenkant van het glas",
+          "volgende": "raam_type"
+        },
+        {
+          "label": "Gras maaien",
+          "uitleg": "Gazon bijhouden zonder eraan te denken",
+          "volgende": "maai_opp"
+        },
+        {
+          "label": "Zwembad schoonhouden",
+          "uitleg": "Bodem, wanden en waterlijn",
+          "volgende": "zwembad_type"
+        }
+      ]
+    },
+    "vloer_huis": {
+      "vraag": "Wat voor vloer heb je vooral?",
+      "sub": "Dit bepaalt of de dweilfunctie zin heeft.",
+      "opties": [
+        {
+          "label": "Vooral harde vloer",
+          "uitleg": "Tegels, laminaat, gietvloer",
+          "score": {
+            "ecovacs-t30": 2,
+            "dreame-x40": 2
+          },
+          "volgende": "vloer_dieren"
+        },
+        {
+          "label": "Vooral tapijt of vloerkleden",
+          "uitleg": "Dweilen heeft dan weinig nut",
+          "score": {
+            "roborock-qrevo": 2,
+            "eufy-instap": 2
+          },
+          "volgende": "vloer_dieren"
+        },
+        {
+          "label": "Allebei, door elkaar",
+          "uitleg": "Robot moet tapijt herkennen en ontwijken",
+          "score": {
+            "dreame-x40": 3,
+            "roborock-s8-maxv": 2
+          },
+          "volgende": "vloer_dieren"
+        }
+      ]
+    },
+    "vloer_dieren": {
+      "vraag": "Huisdieren of kinderen in huis?",
+      "sub": "Haar en kruimels bepalen hoe vaak de robot moet draaien.",
+      "opties": [
+        {
+          "label": "Ja, hond of kat",
+          "uitleg": "Veel haar, dagelijks werk",
+          "score": {
+            "dreame-x40": 3,
+            "roborock-s8-maxv": 2
+          },
+          "volgende": "vloer_budget"
+        },
+        {
+          "label": "Ja, jonge kinderen",
+          "uitleg": "Kruimels en plakkerige vlekken",
+          "score": {
+            "ecovacs-t30": 2,
+            "dreame-x40": 2
+          },
+          "volgende": "vloer_budget"
+        },
+        {
+          "label": "Nee, geen van beide",
+          "uitleg": "Normaal stof en zand",
+          "score": {
+            "roborock-qrevo": 2,
+            "eufy-instap": 2
+          },
+          "volgende": "vloer_budget"
+        }
+      ]
+    },
+    "vloer_budget": {
+      "vraag": "Wat wil je maximaal uitgeven?",
+      "sub": "Eerlijk: boven de €900 koop je vooral gemak, niet meer schoon.",
+      "opties": [
+        {
+          "label": "Tot ongeveer €400",
+          "score": {
+            "eufy-instap": 6
+          },
+          "volgende": "vloer_rommel"
+        },
+        {
+          "label": "€400 tot €800",
+          "score": {
+            "roborock-qrevo": 6,
+            "ecovacs-t30": 3
+          },
+          "volgende": "vloer_rommel"
+        },
+        {
+          "label": "Meer dan €800",
+          "uitleg": "Je betaalt voor het zelfwassende station",
+          "score": {
+            "dreame-x40": 6,
+            "roborock-s8-maxv": 5
+          },
+          "volgende": "vloer_rommel"
+        }
+      ]
+    },
+    "vloer_rommel": {
+      "vraag": "Hoe ziet je vloer er meestal uit?",
+      "sub": "De eerlijkste vraag van deze wizard.",
+      "opties": [
+        {
+          "label": "Vrij opgeruimd",
+          "uitleg": "Kabels weggewerkt, weinig los speelgoed",
+          "score": {
+            "dreame-x40": 1,
+            "roborock-qrevo": 1,
+            "eufy-instap": 1,
+            "ecovacs-t30": 1,
+            "roborock-s8-maxv": 1
+          },
+          "resultaat": "robotstofzuiger"
+        },
+        {
+          "label": "Redelijk, af en toe wat rondslingeren",
+          "score": {
+            "roborock-s8-maxv": 2,
+            "dreame-x40": 1
+          },
+          "resultaat": "robotstofzuiger"
+        },
+        {
+          "label": "Er ligt eigenlijk altijd van alles",
+          "uitleg": "Kabels, speelgoed, kleding",
+          "waarschuwing": "rommel",
+          "score": {
+            "roborock-s8-maxv": 3
+          },
+          "resultaat": "robotstofzuiger"
+        }
+      ]
+    },
+    "raam_type": {
+      "vraag": "Om wat voor ramen gaat het?",
+      "opties": [
+        {
+          "label": "Grote raampartijen of serre",
+          "score": {
+            "winbot-w2": 3
+          },
+          "volgende": "raam_bereik"
+        },
+        {
+          "label": "Normale ramen door het hele huis",
+          "score": {
+            "hobot-serie": 2,
+            "winbot-w2": 1
+          },
+          "volgende": "raam_bereik"
+        },
+        {
+          "label": "Kleine ramen en roedes",
+          "uitleg": "Verdeeld glas met dunne latten",
+          "waarschuwing": "roedes",
+          "score": {
+            "hutt-serie": 1
+          },
+          "volgende": "raam_bereik"
+        }
+      ]
+    },
+    "raam_bereik": {
+      "vraag": "Waarom wil je een raamrobot?",
+      "opties": [
+        {
+          "label": "Ik kan er zelf niet veilig bij",
+          "uitleg": "Hoog, of buiten aan een gevel",
+          "score": {
+            "winbot-w2": 3
+          },
+          "resultaat": "raamrobot"
+        },
+        {
+          "label": "Ik heb er simpelweg geen zin in",
+          "score": {
+            "hobot-serie": 2,
+            "hutt-serie": 1
+          },
+          "resultaat": "raamrobot"
+        },
+        {
+          "label": "Ik wil vlekkeloos resultaat",
+          "uitleg": "Streeploos, ook in de hoeken",
+          "waarschuwing": "raam_perfectie",
+          "score": {
+            "winbot-w2": 2
+          },
+          "resultaat": "raamrobot"
+        }
+      ]
+    },
+    "maai_opp": {
+      "vraag": "Hoe groot is je gazon ongeveer?",
+      "opties": [
+        {
+          "label": "Tot 300 m²",
+          "uitleg": "Kleine stadstuin of achtertuin",
+          "score": {
+            "husqvarna-gardena": 3,
+            "dreame-maaier": 1
+          },
+          "volgende": "maai_vorm"
+        },
+        {
+          "label": "300 tot 1.000 m²",
+          "score": {
+            "navimow": 3,
+            "dreame-maaier": 2
+          },
+          "volgende": "maai_vorm"
+        },
+        {
+          "label": "Meer dan 1.000 m²",
+          "score": {
+            "mammotion": 3,
+            "navimow": 2
+          },
+          "volgende": "maai_vorm"
+        }
+      ]
+    },
+    "maai_vorm": {
+      "vraag": "Hoe ziet de tuin eruit?",
+      "sub": "Satellietnavigatie heeft vrij zicht op de lucht nodig.",
+      "opties": [
+        {
+          "label": "Open, weinig bomen",
+          "score": {
+            "navimow": 2,
+            "dreame-maaier": 1
+          },
+          "resultaat": "robotmaaier"
+        },
+        {
+          "label": "Deels onder bomen",
+          "score": {
+            "husqvarna-gardena": 2,
+            "navimow": 1
+          },
+          "resultaat": "robotmaaier"
+        },
+        {
+          "label": "Veel bomen of dicht tegen de gevel",
+          "uitleg": "Slecht satellietbereik",
+          "waarschuwing": "gps",
+          "score": {
+            "husqvarna-gardena": 4
+          },
+          "resultaat": "robotmaaier"
+        }
+      ]
+    },
+    "zwembad_type": {
+      "vraag": "Wat voor zwembad heb je?",
+      "opties": [
+        {
+          "label": "Ingebouwd bad vanaf 8 meter",
+          "score": {
+            "beatbot": 3,
+            "dolphin": 2
+          },
+          "volgende": "zwembad_vuil"
+        },
+        {
+          "label": "Kleiner ingebouwd bad",
+          "score": {
+            "aiper-top": 2,
+            "aiper-instap": 1
+          },
+          "volgende": "zwembad_vuil"
+        },
+        {
+          "label": "Opzetzwembad",
+          "uitleg": "Zachte wand, meestal rond",
+          "waarschuwing": "opzetbad",
+          "score": {
+            "aiper-instap": 3
+          },
+          "volgende": "zwembad_vuil"
+        }
+      ]
+    },
+    "zwembad_vuil": {
+      "vraag": "Waar heb je het meeste last van?",
+      "opties": [
+        {
+          "label": "Blad en zand op de bodem",
+          "score": {
+            "aiper-instap": 2,
+            "aiper-top": 1
+          },
+          "resultaat": "zwembadrobot"
+        },
+        {
+          "label": "Aanslag op de wanden",
+          "score": {
+            "aiper-top": 3,
+            "dolphin": 2
+          },
+          "resultaat": "zwembadrobot"
+        },
+        {
+          "label": "Die vette rand op de waterlijn",
+          "uitleg": "Alleen topmodellen pakken dit",
+          "score": {
+            "beatbot": 4,
+            "dolphin": 2
+          },
+          "resultaat": "zwembadrobot"
+        }
+      ]
+    }
+  },
+  "waarschuwingen": {
+    "rommel": {
+      "kop": "Eerst opruimen, dan pas kopen",
+      "tekst": "Een robot die elke dag vastloopt op een kabel of sok wordt binnen een maand een dure deurstop. Zelfs de beste objectherkenning mist dingen. Kun je de vloer niet grotendeels vrijhouden, koop dan liever een goede steelstofzuiger — die is goedkoper en frustreert minder."
+    },
+    "roedes": {
+      "kop": "Let op bij verdeeld glas",
+      "tekst": "Raamrobots hebben een aaneengesloten glasvlak nodig om zich vast te zuigen. Ramen met roedes of smalle vlakken onder ongeveer 50 bij 50 centimeter zijn geen goede kandidaat. Meet je kleinste ruit voordat je bestelt."
+    },
+    "raam_perfectie": {
+      "kop": "Verwacht geen glazenwassersresultaat",
+      "tekst": "Elke raamrobot laat de randen en hoeken staan — daar kan hij fysiek niet komen zonder los te laten. Reken op tachtig procent van het werk uit handen, niet op honderd. Wil je écht streeploos glas, dan blijft een doek nodig."
+    },
+    "gps": {
+      "kop": "Satellietnavigatie is hier riskant",
+      "tekst": "Onder dichte bomen of vlak langs een hoge gevel verliezen RTK-maaiers hun signaal. Ze stoppen dan midden in de tuin. In zo'n tuin is een klassiek model met begrenzingsdraad gewoon betrouwbaarder, hoe ouderwets dat ook klinkt."
+    },
+    "opzetbad": {
+      "kop": "Check eerst de bodem en wand",
+      "tekst": "Veel robots zijn gemaakt voor harde wanden. Op een zacht opzetbad met een geplooide bodem krijgen ze geen grip en missen ze stukken. Voor een klein opzetbad is een handmatige stofzuiger op de tuinslang meestal verstandiger — en tien keer goedkoper."
+    }
+  }
+}
