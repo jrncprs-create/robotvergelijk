@@ -1,0 +1,48 @@
+{
+  "naam": "Robotvergelijk",
+  "domein": "robotvergelijk.nl",
+  "tagline": "Robots die het werk overnemen — in gewone mensentaal uitgelegd",
+  "beschrijving": "Onafhankelijke uitleg en koopadvies over robotstofzuigers, raamrobots, robotmaaiers en zwembadrobots. Wij leggen uit hoe ze werken, wat wél en niet werkt, en wanneer je er beter geen moet kopen.",
+  "bol_site_id": "",
+  "_comment_bol": "Vul hier je bol Site_ID in zodra je affiliate-aanvraag is goedgekeurd. De build voegt dan automatisch getagde links toe.",
+  "nav": [
+    { "titel": "Keuzehulp", "url": "/keuzehulp.html", "cta": true },
+    { "titel": "Robotstofzuigers", "url": "/robotstofzuiger-kopen.html" },
+    { "titel": "Raamrobots", "url": "/raamrobot-kopen.html" },
+    { "titel": "Robotmaaiers", "url": "/robotmaaier-kopen.html" },
+    { "titel": "Zwembadrobots", "url": "/zwembadrobot-kopen.html" },
+    { "titel": "Uitleg", "url": "/uitleg.html" }
+  ],
+  "footer": [
+    {
+      "kop": "Koopgidsen",
+      "links": [
+        { "titel": "Robotstofzuiger kopen", "url": "/robotstofzuiger-kopen.html" },
+        { "titel": "Raamrobot kopen", "url": "/raamrobot-kopen.html" },
+        { "titel": "Robotmaaier kopen", "url": "/robotmaaier-kopen.html" },
+        { "titel": "Zwembadrobot kopen", "url": "/zwembadrobot-kopen.html" }
+      ]
+    },
+    {
+      "kop": "Uitleg",
+      "links": [
+        { "titel": "Hoe werkt navigatie?", "url": "/hoe-werkt-navigatie.html" },
+        { "titel": "Dweilen: wat werkt echt?", "url": "/dweilen-uitgelegd.html" },
+        { "titel": "Obstakelherkenning", "url": "/obstakelherkenning.html" },
+        { "titel": "Het basisstation", "url": "/basisstation-uitgelegd.html" },
+        { "titel": "Zuigkracht en pascal", "url": "/zuigkracht-uitgelegd.html" }
+      ]
+    },
+    {
+      "kop": "Over",
+      "links": [
+        { "titel": "Over Robotvergelijk", "url": "/over-ons.html" },
+        { "titel": "Hoe wij geld verdienen", "url": "/affiliate.html" },
+        { "titel": "Wanneer je géén robot moet kopen", "url": "/geen-robot-kopen.html" },
+        { "titel": "Privacy", "url": "/privacy.html" }
+      ]
+    }
+  ],
+  "disclosure": "Robotvergelijk is onafhankelijk. Klik je via onze links door naar een webshop en koop je daar iets, dan ontvangen wij een commissie. Voor jou verandert de prijs niet. Dit heeft geen invloed op onze adviezen — we schrijven ook wanneer je iets beter niet koopt.",
+  "disclosure_kort": "Deze pagina bevat affiliate-links naar bol. Koop je via zo'n link, dan ontvangen wij commissie. De prijs blijft voor jou hetzelfde."
+}
